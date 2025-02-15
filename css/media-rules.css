@@ -428,7 +428,7 @@
 	    position: absolute !important;
 	    width: 180px !important;
 	    top: -62px !important;
-	    left: 38px !important;
+	    left: 33px !important;
 	    border-radius: 10px 10px 0px 0px !important;
 	}
 	.carousel-inner{
@@ -449,7 +449,7 @@
 		height: 60px !important;
         right: 0 !important;
         top: 64px !important;
-        left: 237px !important;
+        left: 241px !important;
 	}
 	.content-1{
 		padding: 50px 15px 0 15px !important;
@@ -655,7 +655,8 @@
         width: 50px !important;
         height: 50px !important;
         top: 73px !important;
-        left: 215px !important;
+        left: auto !important;
+        right: 18px !important;
 	}
 	.content-testi{
 		padding: 136px 29px 60px 20px !important;
