@@ -400,6 +400,7 @@ header{
 }
 .content3-colmn3{
   position: relative;
+  cursor: pointer;
 }
 .content3-colmn3, .content3-colmn3-1{
   max-width: 371px;
