@@ -287,3 +287,9 @@ document.getElementById("email").addEventListener("blur", function () {
         emailInput.value = ""; // Clear the input if invalid
     }
 });
+
+
+let inputs = document.querySelectorAll("input");
+inputs.forEach(input => {
+    input.setAttribute("autocomplete", "off");
+});
