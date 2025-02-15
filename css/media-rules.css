@@ -335,6 +335,9 @@
 }
 
 @media screen and (max-width: 765px){
+	.error-message{
+		width: 65% !important;
+	}
 	.videoplayer{
 		max-width: 500px !important;
 		height: 275px !important;
@@ -516,70 +519,67 @@
     .left-container{
     	padding: 0 0 10px 0 !important;
     }
+	.menu-btn {
+		position: relative;
+		z-index: 1;
+		float: right;
+		height: 20px;
+		width: 28px;
+		cursor: pointer;
+	}
+	.menu-btn.hidden {
+	    display: none !important; /* Hide when menu is open */
+	}
+	.nav {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 100vw;
+		opacity: 1;
+	}
+	.nav.open {
+	  visibility: visible;
+	}
+	.nav .menu-nav {
+		min-height: 0px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		  -ms-flex-flow: column wrap;
+		      flex-flow: column wrap;
+		-webkit-box-align: flex-start;
+		  -ms-flex-align: flex-start;
+		      align-items: flex-start;
+		-webkit-box-pack: center;
+		  -ms-flex-pack: center;
+		      justify-content: center;
+		overflow: hidden;
+		background: #194D44;
+		list-style-type: none;
+		padding-right: 0;
+		overflow: hidden;
+		max-height: 0;
+		flex-wrap: nowrap;
+		transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+	}
 
-.menu-btn {
-  position: relative;
-  z-index: 1;
-  float: right;
-  height: 20px;
-  width: 28px;
-  cursor: pointer;
-}
-.menu-btn.hidden {
-    display: none !important; /* Hide when menu is open */
-}
-.nav {
-  position: absolute;
-  top: 50px;
-  left: 0;
-  width: 100vw;
-  opacity: 1;
-}
-.nav.open {
-  visibility: visible;
-}
-.nav .menu-nav {
-  min-height: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-align: flex-start;
-      -ms-flex-align: flex-start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  overflow: hidden;
-  background: #194D44;
-  list-style-type: none;
-  padding-right: 0;
-  overflow: hidden;
-  max-height: 0;
-  flex-wrap: nowrap;
-  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
-}
+	.nav .menu-nav.open {
+		max-height: 127px;
+		padding-bottom: 15px;
+	}
 
-.nav .menu-nav.open {
-	max-height: 127px;
-	padding-bottom: 15px;
-}
-
-.nav .menu-nav_link {
-	display: inline-block;
-	font-size: 2rem;
-	text-transform: uppercase;
-	padding: 2rem 0;
-	font-weight: 300;
-}
-
-  .menu-btn {
-    display: block !important;
-  }
-
+	.nav .menu-nav_link {
+		display: inline-block;
+		font-size: 2rem;
+		text-transform: uppercase;
+		padding: 2rem 0;
+		font-weight: 300;
+	}
+	.menu-btn {
+		display: block !important;
+	}
 }
 
 @media screen and (max-width: 530px){
