@@ -629,7 +629,7 @@
 	display: block;
 }
 
-@media screen and (min-width: 0px) and (max-width: 360px){
+@media screen and (min-width: 0px) and (max-width: 359px){
 	.content-1{
 		padding: 50px 10px 0 10px !important;
 	}

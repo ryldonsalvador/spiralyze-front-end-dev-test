@@ -331,7 +331,8 @@ header{
 }
 .carousel-indicators {
   position: relative;
-  width: 120px;
+  /*width: 120px;*/
+  text-align: center;
   left: 0; right: 0;
   margin: auto;
   list-style: none;
