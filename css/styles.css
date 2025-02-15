@@ -14,6 +14,12 @@
   --color1: #5BC8AF;
 }
 
+input:-webkit-autofill {
+    background-color: transparent !important;
+    box-shadow: 0 0 0px 1000px #35786a inset !important;
+    -webkit-text-fill-color: #fff !important; /* Forces text color */
+}
+
 .montserrat-400 {
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
